@@ -20,7 +20,6 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    npx tailwindcss init -p
    
 2.Change the tailwind.config.js file to include the paths to your content files: 
-   ```sh   
    module.exports = {
      content: ["./src/**/*.{html,js}"],
      theme: {
@@ -30,10 +29,12 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    };
 
 3.Create a CSS file for Tailwind in src/styles/tailwind.css:
-    ```sh
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
+
+
+   
 <div style="text-align:center">
   <h1>UI of THE WEBPAGE</h1>
   <img src="image1.png" alt="UI of the webpage">
