@@ -19,22 +19,7 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
    
-2.Change the tailwind.config.js file to include the paths to your content files: 
-   module.exports = {
-     content: ["./src/**/*.{html,js}"],
-     theme: {
-       extend: {},
-     },
-     plugins: [],
-   };
-
-3.Create a CSS file for Tailwind in src/styles/tailwind.css:
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
-
-
-   
+2.do the tailwind css requirements
 <div style="text-align:center">
   <h1>UI of THE WEBPAGE</h1>
   <img src="image1.png" alt="UI of the webpage">
