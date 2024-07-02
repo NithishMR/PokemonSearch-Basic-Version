@@ -19,7 +19,8 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
    
-2.Change the tailwind.config.js file to include the paths to your content files:
+2.Change the tailwind.config.js file to include the paths to your content files: 
+   ```sh   
    module.exports = {
      content: ["./src/**/*.{html,js}"],
      theme: {
