@@ -34,14 +34,6 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
-
-4.Build the Tailwind CSS:
-   Add a script to your package.json:
-    ```sh
-    "scripts": {
-    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./public/output.css --watch"
-   }
-
 <div style="text-align:center">
   <h1>UI of THE WEBPAGE</h1>
   <img src="image1.png" alt="UI of the webpage">
