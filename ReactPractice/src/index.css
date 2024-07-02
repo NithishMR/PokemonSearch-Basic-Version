@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  .customBorder {
+    border: 2px solid rgb(59 130 246);
+    border-radius: none;
+  }
+}
