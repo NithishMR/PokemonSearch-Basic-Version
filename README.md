@@ -18,6 +18,26 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
    npm init -y
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
+   
+2.Change the tailwind.config.js file to include the paths to your content files:
+   module.exports = {
+     content: ["./src/**/*.{html,js}"],
+     theme: {
+       extend: {},
+     },
+     plugins: [],
+   };
+
+3.Create a CSS file for Tailwind in src/styles/tailwind.css:
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+
+4.Build the Tailwind CSS:
+   Add a script to your package.json:
+   "scripts": {
+  "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./public/output.css --watch"
+}
 
 <div style="text-align:center">
   <h1>UI of THE WEBPAGE</h1>
@@ -30,12 +50,12 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
 </div>
 <div>
   <h1>Error Handling</h1>
-  <img src="image3.png" alt="Error handling">
+  <img src="image4.png" alt="Error handling">
   <p style="text-align:justify">Shows an error message when the entered data is wrong.</p>
 </div>
 <div>
   <h1>Loading</h1>
-  <img src="image4.png" alt="Loading animation">
+  <img src="image3.png" alt="Loading animation">
   <p style="text-align:justify">A loading icon animation is shown while the data is being fetched.</p>
 </div>
 <div>
