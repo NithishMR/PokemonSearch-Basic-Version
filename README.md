@@ -42,6 +42,7 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
 <div>
   <h1>Data Displaying</h1>
   <img src="image51.png" alt="Data displaying - image 1">
-  <img src="image52.png" alt="Data displaying - image 2">
+   <div style="margin-top:-5px; margin-left:-2px;">
+  <img src="image52.png" alt="Data displaying - image 2"></div>
   <p style="text-align:justify">The data of the Pokémon along with its picture and stats are shown.</p>
 </div>
