@@ -11,7 +11,6 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
 - Autoprefixer
 
 ### After cloning run the command:
-   ```sh
    npm install
 
 ### The dependencies have been downloaded like this:
