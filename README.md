@@ -10,7 +10,10 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
 - PostCSS
 - Autoprefixer
 
-### To view this project after cloning:
+### After cloning run the command:
+-npm install
+
+### The dependencies have been downloaded like this:
 1. Install the dependencies:
    ```sh
    npm create vite@latest
