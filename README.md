@@ -13,14 +13,6 @@ This is a webpage that can be used to find a Pokémon's name. The data is not ha
 ### After cloning run the command:
    npm install
 
-### The dependencies have been downloaded like this:
-1. Install the dependencies:
-   ```sh
-   npm create vite@latest
-   npm init
-   npm init -y
-   npm install -D tailwindcss postcss autoprefixer
-   npx tailwindcss init -p
    
 2.do the tailwind css requirements
 <div style="text-align:center">
