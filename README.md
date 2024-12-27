@@ -4,17 +4,8 @@
 ## Project Description:
 This is a webpage that can be used to find a Pokémon's name. The data is not hardcoded. The data is fetched using an API.
 
-## Dependencies used for the project:
-- Vite
-- Tailwind CSS
-- PostCSS
-- Autoprefixer
+  
 
-### After cloning run the command:
-   npm install
-
-   
-2.do the tailwind css requirements
 <div style="text-align:center">
   <h1>UI of THE WEBPAGE</h1>
   <img src="image1.png" alt="UI of the webpage">
